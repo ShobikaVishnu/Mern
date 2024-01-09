@@ -1,0 +1,90 @@
+.loginPage{
+    background: url("./management-01-1.jpg");
+    /* background-size: cover; */
+    height: 100vh;
+    background-size:100%;
+    background-position-y: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.loginContent{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 285px;
+    padding: 5px;
+}
+
+.loginTitle{
+    font-family: 'Lora', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.loginForm > label{
+    margin: 2px 0px;
+    font-family: 'Lora', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.loginForm > input{
+    margin-bottom: 20px;
+    height: 30px;
+    width: 100%;
+    outline: 0;
+    border: 0;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 7px;
+}
+
+.loginBtn{
+    height: 35px;
+    width: 200px;
+    font-style: 18px;
+    align-self: center;
+    background-color: tomato;
+    font-size: 16px;
+    color: white;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.regBtn{
+    position: absolute;
+    top: 0;
+    left: 84%;
+    height: 35px;
+    width: 200px;
+    font-style: 18px;
+    align-self: center;
+    font-size: 16px;
+    background-color: teal;
+    color: white;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
